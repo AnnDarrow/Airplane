@@ -1,0 +1,51 @@
+img{
+    width:100%;
+    height: 37rem;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+h1{
+    margin-left: 33%;
+    font-family: sans-serif;
+}
+#login{
+    position:absolute;
+    right: 1rem;   
+}
+
+.icon{
+    width: 3rem;
+    height: 3rem;
+}
+
+.form-group{
+    margin: 1rem;
+}
+.container{
+    display: block !important;
+    max-width: none !important;
+}
+.modal{
+    width: 100%;
+    height: 36.625rem;
+    margin-top: 4rem;
+}
+#searchtab{
+    margin-top: 16rem;
+    background-color: white;
+    max-width: none;
+    height: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+#searchbtn{
+    height:2.4rem;
+    width:12rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+

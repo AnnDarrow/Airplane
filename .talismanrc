@@ -1,0 +1,3 @@
+- filename: Home Page.html
+  checksum: c4d522118b3e38fee063a3005218ca40cb8d4ad37b2b94cd6ab845dbdd0f2c53
+  ignore_detectors: [filename,filecontent, filesize]
