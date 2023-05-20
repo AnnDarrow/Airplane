@@ -25,14 +25,14 @@ h1{
 .form-group{
     margin: 1rem;
 }
-.container{
-    display: block !important;
-    max-width: none !important;
-}
+
 .modal{
-    width: 100%;
-    height: 36.625rem;
+    display: block ;
+    max-width: none ;
+    position: absolute;
+    height: 36rem;
     margin-top: 4rem;
+    overflow: visible;
 }
 #searchtab{
     margin-top: 16rem;
@@ -42,6 +42,7 @@ h1{
     margin-left: 5rem;
     margin-right: 5rem;
 }
+
 #searchbtn{
     height:2.4rem;
     width:12rem;

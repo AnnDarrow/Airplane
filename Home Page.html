@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>VNU Airlines</title>
-    <link rel="stylesheet" href="./style.css">
+    
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"  crossorigin="anonymous">
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <main>
@@ -24,7 +25,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home </a>
+                  <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Contact</a>
@@ -37,36 +38,34 @@
               <img class="icon" id ="login" src="assets/Login.png">
             </div>
         </nav>
-
+        
           <div  class="modal container"  role="dialog">
-
-            <div id = "searchtab" class="modal-dialog row" role="document">
-              
-                    <div class = "col">
-                        <label for="From">From</label>
-                        <input type="text" class="form-control" id="from" placeholder="Enter city or airport">
-                    </div>
-                    <div class = "col">
-                        <label for="To">To</label>
-                        <input type="text" class="form-control" id="To" placeholder="Enter city or airport">
-                    </div>
-                    <div class = "col">
-                        <label for="Departure">Departure</label>
-                        <input type="date" class="form-control" id="Departure" placeholder="Enter Date">
-                    </div>
-                    <div class = "col">
-                        <label for="Return">Return</label>
-                        <input type="date" class="form-control" id="Return" placeholder="Enter Date">
-                    </div>
-                    <div class = "col">
-                        <label for="TravelType">Travellers|Class</label>
-                        <input type="text" class="form-control" id="TravelType" placeholder="1 Passenger|Economy">
-                    </div class="col">
-                        <button id="searchbtn" type="submit" class="btn btn-primary">Search</button>
-                    </div>
+            <form id = "searchtab" class="row">
+            <div class="col">
+                <label for="From">From</label>
+                <input type="text" class="form-control" id="from" placeholder="Enter city or airport">
             </div>
-             
-          </div>
+            <div class="col">
+                <label for="To">To</label>
+                <input type="text" class="form-control" id="To" placeholder="Enter city or airport">
+            </div>
+            <div class="col">
+                <label for="Departure">Departure</label>
+                <input type="date" class="form-control" id="Departure" placeholder="Enter Date">
+            </div>
+            <div class="col">
+                <label for="Return">Return</label>
+                <input type="date" class="form-control" id="Return" placeholder="Enter Date">
+            </div>
+            <div class="col">
+                <label for="TravelType">Travellers|Class</label>
+                <input type="text" class="form-control" id="TravelType" placeholder="1 Passenger|Economy">
+            </div>
+            <div class="col">
+                <button id="searchbtn" type="submit" class="btn btn-primary">Search</button>
+            </div>
+          </form>
+        </div>
         
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -94,14 +93,9 @@
                 </div>
               </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
+          </div>
+          <div>
+            
           </div>
 
     </main>
